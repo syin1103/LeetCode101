@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/ubuntu/leisy/open_code/LeetCode101/build/search",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/695.dir/695_max_area_of_island.cc.o -c /home/ubuntu/leisy/open_code/LeetCode101/search/695_max_area_of_island.cc",
+  "file": "/home/ubuntu/leisy/open_code/LeetCode101/search/695_max_area_of_island.cc"
+}
+]
