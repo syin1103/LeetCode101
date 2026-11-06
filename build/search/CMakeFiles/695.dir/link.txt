@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/695.dir/695_max_area_of_island.cc.o -o 695 
