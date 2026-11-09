@@ -1,3 +1,7 @@
+/*
+ * 695.Max Area Of Island
+ */
+
 #include <iostream>
 #include <stack>
 #include <vector>
@@ -36,18 +40,3 @@ class Solution {
     return max_area;
   }
 };
-
-int main() {
-  std::vector<std::vector<int>> grid = {
-      {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-      {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-      {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
-      {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
-      {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
-      {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
-      {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-      {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}};
-
-  std::cout << Solution().maxAreaOfIsland(grid) << std::endl;
-  return 0;
-}

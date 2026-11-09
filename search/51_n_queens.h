@@ -1,3 +1,7 @@
+/*
+ * 51.N Queens
+ */
+
 #include <string>
 #include <vector>
 
